@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_blog_post_blog_posts",
+  "info": {
+    "displayName": "blog_post",
+    "icon": "clipboard"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "richtext"
+    },
+    "quote": {
+      "displayName": "quote",
+      "type": "component",
+      "repeatable": false,
+      "component": "blog-post.quote"
+    }
+  }
+}

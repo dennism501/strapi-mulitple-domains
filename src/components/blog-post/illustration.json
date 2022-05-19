@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_blog_post_illustration_s",
+  "info": {
+    "displayName": "illustration ",
+    "icon": "photo-video"
+  },
+  "options": {},
+  "attributes": {
+    "media": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "caption": {
+      "type": "string"
+    }
+  }
+}
