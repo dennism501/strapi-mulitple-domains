@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_blog_post_media_comps",
+  "info": {
+    "displayName": "Media comp",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "mediadetails": {
+      "displayName": "meta data",
+      "type": "component",
+      "repeatable": true,
+      "component": "blog-post.meta-data"
+    }
+  }
+}

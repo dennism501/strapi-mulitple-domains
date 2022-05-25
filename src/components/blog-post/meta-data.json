@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_blog_post_meta_data",
+  "info": {
+    "displayName": "meta data",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "picture": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
