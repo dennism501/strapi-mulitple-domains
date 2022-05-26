@@ -48,6 +48,9 @@
       "relation": "manyToOne",
       "target": "api::domain.domain",
       "inversedBy": "articles"
+    },
+    "name": {
+      "type": "string"
     }
   }
 }
