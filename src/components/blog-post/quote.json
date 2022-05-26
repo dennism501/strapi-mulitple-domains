@@ -2,7 +2,8 @@
   "collectionName": "components_blog_post_quotes",
   "info": {
     "displayName": "quote",
-    "icon": "comment"
+    "icon": "comment",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -11,6 +12,9 @@
     },
     "quote": {
       "type": "text"
+    },
+    "name": {
+      "type": "string"
     }
   }
 }
