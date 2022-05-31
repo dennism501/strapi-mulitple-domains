@@ -14,7 +14,8 @@ module.exports = createCoreService('api::domain.domain', ({strapi}) =>({
         strapi.log.info(`service: ,${domain}`)
         const entities = await strapi.entityService.findMany('api::domain.domain', {
             filters: { name: domain},
-            sort: {createdAt: 'DESC'}
+            sort: {createdAt: 'DESC'},
+            populate: {article: true}
         })
 
         return entities;
