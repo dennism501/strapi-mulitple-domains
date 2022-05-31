@@ -42,12 +42,6 @@
       "relation": "manyToOne",
       "target": "api::category.category",
       "inversedBy": "articles"
-    },
-    "domain": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::domain.domain",
-      "inversedBy": "articles"
     }
   }
 }

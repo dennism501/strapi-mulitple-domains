@@ -10,6 +10,7 @@ module.exports = createCoreRouter('api::domain.domain', {
     config: {
         find: {
             policies: ['global::isAuthenticated'],
+            middlewares: ['global::allowed-content']
         }
     }
 });

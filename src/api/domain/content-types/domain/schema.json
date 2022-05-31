@@ -4,7 +4,8 @@
   "info": {
     "singularName": "domain",
     "pluralName": "domains",
-    "displayName": "Domain"
+    "displayName": "Domain",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -14,11 +15,14 @@
     "name": {
       "type": "string"
     },
-    "articles": {
+    "users_permissions_user": {
       "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::article.article",
-      "mappedBy": "domain"
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "domain"
+    },
+    "token": {
+      "type": "string"
     }
   }
 }
