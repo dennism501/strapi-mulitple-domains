@@ -14,7 +14,7 @@ module.exports = createCoreService('api::article.article', ({strapi}) => ({
         const articles = await strapi.entityService.findMany('api::article.article', {
             filters: { domain: { name: domain}},
             sort: {publishedAt: 'DESC'},
-            populate: { domain: true, category: true}
+            populate: '*'
         })
 
         return articles;
